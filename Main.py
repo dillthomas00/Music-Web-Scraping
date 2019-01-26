@@ -260,18 +260,18 @@ class app():
                 label = tk.Label(canvas_frame, image=photo)
                 label.image = photo
                 label.grid(row = counter, column = 1)
-                tk.Button(canvas_frame, text = x.replace("https://genius.com/", "").replace("-lyrics", "").replace("-", " ").title(), bg = 'white', font = ("", int(self.height4 / 1.75), "bold"), relief = tk.FLAT, width = self.width3 + self.width5,
+                tk.Button(canvas_frame, text = x.replace("https://genius.com/", "").replace("-lyrics", "").replace("-", " ").title(), bg = 'white', font = ("", int(self.height4 / 1.75), "bold"), relief = tk.FLAT, width = self.width2,
                           command = lambda song = x: self.Lyric_Reroute(song)).grid(row = counter, column = 2)
-                tk.Button(canvas_frame, text = "Play Song", bg = 'white', font = ("", int(self.height4 / 2)), command = lambda song = x: self.Play_Reroute(song)).grid(row = counter, column= 3)
+                tk.Button(canvas_frame, text = "Play Song", bg = 'white', font = ("", int(self.height4 / 2)), command = lambda song = x: self.Play_Reroute(song), width = 10).grid(row = counter, column= 3)
             else:    
                 tk.Label(canvas_frame, text = str(counter) + ".)", bg = 'white', font = ("", int(self.height4 / 2))).grid(row = counter, column = 0)
                 photo = tk.PhotoImage(file="temp" + str(counter) + '.gif')
                 label = tk.Label(canvas_frame, image=photo)
                 label.image = photo
                 label.grid(row = counter, column = 1)
-                tk.Button(canvas_frame, text = x.replace("https://genius.com/", "").replace("-lyrics", "").replace("-", " ").title(), bg = 'white', font = ("", int(self.height4 / 2)), relief = tk.FLAT, width = self.width2 + self.width5,
+                tk.Button(canvas_frame, text = x.replace("https://genius.com/", "").replace("-lyrics", "").replace("-", " ").title(), bg = 'white', font = ("", int(self.height4 / 2)), relief = tk.FLAT, width = self.width3 + self.width4,
                           command = lambda song = x: self.Lyric_Reroute(song)).grid(row = counter, column = 2)
-                tk.Button(canvas_frame, text = "Play Song", bg = 'white', font = ("", int(self.height4 / 2)), command = lambda song = x: self.Play_Reroute(song)).grid(row = counter, column = 3)
+                tk.Button(canvas_frame, text = "Play Song", bg = 'white', font = ("", int(self.height4 / 2)), command = lambda song = x: self.Play_Reroute(song), width = 10).grid(row = counter, column = 3)
             counter = counter + 1
         tk.Button(return_frame, text = "Return", fg = 'black', bg = "white", font = ("", int(self.height5)), width = 15, command = lambda:self.Main()).pack()
 
