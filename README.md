@@ -1,10 +1,11 @@
 # Music-Web-Scraping
-A Tkinter Application Which Makes Use of Non-Standard Python Libraries for python 3.6+
-This application requires the installation of the following Libraries:
-pip install requests
-pip install lxml
-pip install beautifulsoup4
-pip install pafy")
-sudo pip install youtube-dl
-install imageio
-Without these libraries the code will not run and you may encounter errors.
+A Tkinter Application Which Makes Use Of Non-Standard Python Libraries For Python 3.6+ Such As Requests,Imageio And Pafy. This Script Allows Users To Search For Songs Through Song Name And Lyrics. You Can Also Look For Certain Artists And What The Current Top Songs Are.
+
+The Script Will Try To Install These Libaries To The Default C Drive, If This Fails, Ensure You Install The Libraries Youself.
+Libraries Required:
+"requests"
+"lxml"
+"beautifulsoup4"
+"pafy"
+"youtube-dl"
+"imageio"
