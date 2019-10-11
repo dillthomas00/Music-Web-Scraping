@@ -1,0 +1,11 @@
+{
+    "Capital FM": "http://media-the.musicradio.com/Capital",
+    "BBC Radio 1": "http://sc59.lon.llnw.net:80/stream/bbcmedia_radio1_mf_p",
+	"Heart FM": "http://media-the.musicradio.com/HeartLondon",
+    "Kiss FM": "http://tx.planetradio.co.uk/icecast.php?i=kissnational.aac",
+    "Smooth Radio": "http://media-ice.musicradio.com/SmoothLondonMP3",
+    "Classic FM": "http://media-ice.musicradio.com/ClassicFM",
+    "Hits Radio": "http://tx.planetradio.co.uk/icecast.php?i=hits.mp3",
+    "Jazz FM": "http://tx.planetradio.co.uk/icecast.php?i=jazz.aac",
+    "Dance Uk Radio": "http://192.227.85.169:6195/;"
+}
